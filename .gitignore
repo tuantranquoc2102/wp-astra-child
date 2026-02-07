@@ -1,0 +1,28 @@
+# 1. Loại bỏ các file hệ điều hành (Rác hệ thống)
+.DS_Store
+Thumbs.db
+
+# 2. Loại bỏ các thư mục thư viện (Rất nặng, không nên sync)
+node_modules/
+bower_components/
+
+# 3. Loại bỏ các file cấu hình nhạy cảm (Bảo mật)
+.env
+wp-config-sample.php
+
+# 4. Loại bỏ các thư mục của trình biên dịch (nếu có)
+dist/
+build/
+.sass-cache/
+*.map
+
+# 5. Loại bỏ các log lỗi
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 6. Các file của trình soạn thảo code
+.vscode/
+.idea/
+*.swp
